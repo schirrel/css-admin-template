@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <input id="switcher"type="checkbox" name="switcher">
+    <label for="switcher"></label>
+    <div class="main">
+    <header>
+        <span> My Dashboard</span>
+        
+        <a href="#sair">Sair</a>
+      </header>
+      <aside>
+        <ul>
+          <li>Analytics</li>
+          <li>Projects</li>
+          <li>Tasks</li>
+          <li>Assets</li>
+          <li>Settings</li>
+        </ul>
+      </aside>
+      <main>
+        <div class="cards">
+          <div class="card">
+               <small data-tooltip title="Current working projects">Projects</small>
+            <h1>32</h1>
+          </div>
+          <div class="card">
+            <small data-tooltip title="Current working tasks">Tasks</small>
+            <h1>1.548</h1>
+          </div>
+          <div class="card">
+               <small data-tooltip title="Employees on tasks">Employess</small>
+            <h1>105</h1>
+         
+          </div>
+          <div class="card highlight">
+            <small data-tooltip title="Assets spent on projects">Assets</small>
+         
+            <h4><small>R$</small> 1.256,00</h4>
+          </div>
+        </div>
+
+        <div>
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th> 
+                  
+<input type="checkbox" name="modal-trigger" id="modal-trigger">
+<label for="modal-trigger">
+ Log-in
+</label>
+<div class="modal">
+  <div class="modal-corpo">
+    <header>Log-in</header>
+    <main>
+      <div>
+        <label for="usuario">Usuário</label>
+        <input type="text" id="usuario" name="usuario">
+      </div>
+      <div>
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha">
+      </div>
+    </main>
+    <footer>
+      <button>Entrar</button>
+      <label for="modal-trigger" class="button fechar-modal">
+        Fechar
+      </label>
+    </footer>
+  </div>
+</div>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Juan</td>
+                <td>Manager</td>
+              </tr>
+              <tr>
+                <td>Sophia</td>
+                <td>Developer</td>
+              </tr>
+
+              <tr>
+                <td>Andrew</td>
+                <td>Desginer</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        
+      </main>
+      <footer>
+       <small>Created by schirrel.dev</small> 
+        
+      </footer>
+
+    </div>
+</body>
+</html>

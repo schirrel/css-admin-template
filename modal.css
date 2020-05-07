@@ -21,6 +21,13 @@ button,
 	font-size: 14px;
 	text-align: center;
 }
+#modal-trigger+label.small,
+button.small,
+.button.small {
+	padding: 4px 5px !important;
+	margin: 2px
+
+}
 
 input:checked+label+.modal {
 	display: flex
@@ -37,7 +44,8 @@ input:checked+label+.modal {
 	top: 0;
 	padding: 15px;
     background: rgba(0, 0, 0, 0.5);
-    left: 0;
+	left: 0;
+	text-align: left;
 }
 
 .modal-corpo {
@@ -46,6 +54,7 @@ input:checked+label+.modal {
 	padding: 5px;
 	width: 40vw;
 	height: 60vh;
+	min-width: 300px;
 	background: white;
 }
 

@@ -6,6 +6,8 @@
   @import url('table.css');
   @import url('input.css');
   @import url('toggle.css');
+  @import url('header.css');
+  @import url('menu.css');
 
 
 
@@ -38,27 +40,6 @@
   a:hover {
     opacity: .4
   }
-  header, footer {
-    height: 50px;
-  }
-  
-  header {
-    background: var(--primaria);
-    grid-area: nav;
-    padding:0 15px;
-    font-size: 20px;
-    font-weight: 700;
-  }
-  header span {
-    display: inline-block;
-    padding:15px 5px;
-  }
-  header a {
-    padding:15px 5px;
-    float:right;
-    font-size: 12px;
-  }
-  
   
   footer {
     grid-area: footer;
@@ -122,8 +103,8 @@
     margin-top:15px;
     padding-top:10px
     }
-  
-  @media (max-width:768px) {
+    
+    @media (max-width:768px) {
     .main {
       grid-template:
           "nav nav" 50px

@@ -1,6 +1,6 @@
 .loader {
   position: absolute;
-  z-index: 999;
+  z-index: 1000;
   animation: loader 6s linear; 
   animation-iteration-count: 1;
   opacity: 0;
@@ -81,6 +81,6 @@ path {
   1%, 100% {
     width: 100vw;
    height: 100vh;
-   background: rgba(255,255,255,0.4);
+   background: rgba(255,255,255,0.9);
  }
 }

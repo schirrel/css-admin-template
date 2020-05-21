@@ -1,12 +1,12 @@
 #switcher,
 #switcher+label{  
-    float: right;
-    margin-right: 20px;
-    margin-top: 20px;
-    right: 39px;
-    position: fixed;
-    z-index: 999;
-    top: -5px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  right: 39px;
+  position: fixed;
+  z-index: 999;
+  top: -5px;
 }
 #switcher {
   opacity: 0;
@@ -16,10 +16,10 @@
 }
 #switcher + label {
   margin-left:-25px;
-    cursor: pointer;
+  cursor: pointer;
 } 
 #switcher + label::before {
-content:'';
+  content:'';
   display:inline;
   width:40px;
   height:20px;
@@ -30,7 +30,7 @@ content:'';
   cursor: pointer;
 } 
 #switcher + label::after {
-content:'';
+  content:'';
   display:inline;
   width:20px;
   height:20px;
@@ -38,7 +38,7 @@ content:'';
   margin-top:1px;
   background:white;
   border: 1px solid grey;
-    cursor: pointer;
+  cursor: pointer;
   position: absolute;
   animation: effect 250ms ease-in;
   transition: all 400ms;
@@ -48,7 +48,7 @@ content:'';
   border-radius:40px;
   margin-top:1px;
   background:#0c0c0c;
-   cursor: pointer;  
+  cursor: pointer;  
   animation: effect 250ms ease-in;
 } 
 @keyframes effect{
@@ -61,8 +61,8 @@ content:'';
   --background: #f4f6f7;
   --color: #161617;
   --button: #ff3c41;
-  --primaria: #0022cc;
-  --secundaria: #4466cc;
+  --primaria: #FF9800;
+  --secundaria: #FFC107;
 }
 #switcher:checked ~ .main{
   --background: #161617;

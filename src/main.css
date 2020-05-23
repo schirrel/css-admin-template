@@ -1,14 +1,14 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
-  @import url('tooltip.css');
-  @import url('mode-switch.css');
-  @import url('modal.css');
-  @import url('table.css');
-  @import url('input.css');
-  @import url('toggle.css');
-  @import url('header.css');
-  @import url('menu.css');
-  @import url('loader.css');
+  @import url('./tooltip.css');
+  @import url('./mode-switch.css');
+  @import url('./modal.css');
+  @import url('./table.css');
+  @import url('./input.css');
+  @import url('./toggle.css');
+  @import url('./header.css');
+  @import url('./menu.css');
+  @import url('./loader.css');
 
 
 
